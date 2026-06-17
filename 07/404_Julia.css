@@ -1,51 +1,55 @@
-    .header { font-family: sans-serif; font-size: 200px;
+#head
+
+    .header { font-family: sans-serif; font-size: 200px; background-color: dodgerblue;
     }
     .h1 {
-        text-align: center; font-size: 500px;
+        text-align: center; font-size: 500px; text-shadow: 2px 2px white;
     }
     .p {
         text-align: center;
     }
-    .body { font-family: sans-serif;}
+    .body { font-family: sans-serif; background-color: darkorange;}
+    .container { background-color: chartreuse; display: grid;}
     .Knöpfe {
-        display: flex; gap: 16px; padding: 30px; background: #ffffff; grid-template-columns: repaet(3,1fr); width: 400px; 
-        align-items: center; grid-row: 3;
+        display: grid; gap: 20px; padding: 30px 40px; background: #ffffff; 
+        grid-template-columns: repaet(12, [col-start]1fr); width: 2400px; 
+        align-items: center; grid-row: 5;
     }
     .btn1 {
-        padding: 12px; border: none; border-radius: 4px; font-size: 14px; font-weight: 600;
-        transition:transform 0.2s ease-out, box-shadow 0.2s ease-out;
         background: #ffc400; color:#ffc400;
-        border: 2px; 
+        padding: 12px 40px; border: none; border-radius: 4px; font-size: 20px; font-weight: 600;
+        transition:transform 0.2s ease-out, box-shadow 0.2s ease-out;
+        border: 2px orangered; 
         align-items: center;
-        cursor: pointer;
+        cursor: pointer; 
     }
 
     .btn2 {
-        padding: 12px; border: none; border-radius: 4px; font-size: 14px; font-weight: 600; 
-        transition:transform 0.2s ease-out, box-shadow 0.2s ease-out;
         background: #73ff00; color:#73ff00;
-        border: 2px; 
+        padding: 12px 60px; border: none; border-radius: 4px; font-size: 20px; font-weight: 600; 
+        transition:transform 0.2s ease-out, box-shadow 0.2s ease-out;
+        border: 2px greenyellow; 
         align-items: center;
         cursor: pointer;
     }
 
     .btn3 {
-        padding: 12px; border: none; border-radius: 4px; font-size: 14px; font-weight: 600;
-        transition:transform 0.2s ease-out, box-shadow 0.2s ease-out;
         background: #ff0077; color:#ff0077;
-        border: 2px; 
+        padding: 12px 60px; border: none; border-radius: 4px; font-size: 20px; font-weight: 600;
+        transition:transform 0.2s ease-out, box-shadow 0.2s ease-out;
+        border: 2px red; 
         align-items: center;
         cursor: pointer;
     }
 
-    .btn4 {
-        padding: 12px; border: none; border-radius: 4px; font-size: 14px; font-weight: 600; 
-        transition:transform 0.2s ease-out, box-shadow 0.2s ease-out;
-        background: #ff0077; color:#ff0077;
-        border: 2px; 
-        align-items: center;
-        cursor: pointer;
+    a:link, a:visited {
+        background-color:#ffc400; color:#ffc400; padding: 12px 60px; 
+        text-align: center; text-decoration: none; display: inline-block; font-size: 20px;
     }
+    a:hover, a:active {
+        background-color:#ffc400;
+    }
+
 
     .btn1.hover {
         border-color: #dc2626; color: #fe2252;
@@ -59,9 +63,5 @@
         border-color: #dc2626; color: #fe2252;
     }
 
-    .btn4.hover {
-        border-color: #dc2626; color: #fe2252;
-    }
-    
     
     
