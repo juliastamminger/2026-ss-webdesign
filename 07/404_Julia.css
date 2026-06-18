@@ -1,67 +1,81 @@
-#head
-
+#head 
     .header { font-family: sans-serif; font-size: 200px; background-color: dodgerblue;
     }
     .h1 {
-        text-align: center; font-size: 500px; text-shadow: 2px 2px white;
+        text-align: center; font-size: 500px; text-shadow: 2px 2px white; border: 2px;
     }
     .p {
         text-align: center;
     }
     .body { font-family: sans-serif; background-color: darkorange;}
-    .container { background-color: chartreuse; display: grid;}
+   
     .Knöpfe {
         display: grid; gap: 20px; padding: 30px 40px; background: #ffffff; 
         grid-template-columns: repaet(12, [col-start]1fr); width: 2400px; 
         align-items: center; grid-row: 5;
     }
     .btn1 {
-        background: #ffc400; color:#ffc400;
-        padding: 12px 40px; border: none; border-radius: 4px; font-size: 20px; font-weight: 600;
-        transition:transform 0.2s ease-out, box-shadow 0.2s ease-out;
-        border: 2px orangered; 
+        background: #ffc400; color:#444;
+        margin: 1rem; padding: 12px 40px; 
+        border: 2px solid rgb(43, 15, 5); border-radius: 4px; 
+        transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+        box-shadow: 4px 4px 0px #444;
+        font-size: 20px; font-weight: 600;
         align-items: center;
         cursor: pointer; 
+        transition-duration: 0.4s;
     }
 
     .btn2 {
-        background: #73ff00; color:#73ff00;
-        padding: 12px 60px; border: none; border-radius: 4px; font-size: 20px; font-weight: 600; 
-        transition:transform 0.2s ease-out, box-shadow 0.2s ease-out;
-        border: 2px greenyellow; 
+        background: #73ff00; color:#444;
+        margin: 1rem; padding: 12px 40px; 
+        border: 2px solid rgb(43, 15, 5); border-radius: 4px; 
+        transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+        box-shadow: 4px 4px 0px #444;
+        font-size: 20px; font-weight: 600;
         align-items: center;
-        cursor: pointer;
+        cursor: pointer; 
+        transition-duration: 0.4s;
     }
 
     .btn3 {
-        background: #ff0077; color:#ff0077;
-        padding: 12px 60px; border: none; border-radius: 4px; font-size: 20px; font-weight: 600;
-        transition:transform 0.2s ease-out, box-shadow 0.2s ease-out;
-        border: 2px red; 
+        background: #ff0077; color:#444;
+        margin: 1rem; padding: 12px 40px; 
+        border: 2px solid rgb(43, 15, 5); border-radius: 4px; 
+        transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+        box-shadow: 4px 4px 0px #444;
+        font-size: 20px; font-weight: 600;
         align-items: center;
-        cursor: pointer;
+        cursor: pointer; 
+        transition-duration: 0.4s;
     }
 
     a:link, a:visited {
-        background-color:#ffc400; color:#ffc400; padding: 12px 60px; 
-        text-align: center; text-decoration: none; display: inline-block; font-size: 20px;
+        background-color:#ffc400; color:#444; text-decoration: none; display: inline-block; font-size: 20px; text-align: center;
+        margin: 1rem; padding: 12px 40px; 
+        border: 2px solid rgb(43, 15, 5); border-radius: 4px; 
+        transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+        box-shadow: 4px 4px 0px #444;
+        font-size: 20px; font-weight: 600;
+        align-items: center;
+        cursor: pointer; 
+        transition-duration: 0.4s;
     }
     a:hover, a:active {
-        background-color:#ffc400;
+        border-color: #dc2626; background-color:#44f3dc;
     }
 
-
-    .btn1.hover {
-        border-color: #dc2626; color: #fe2252;
+    .btn1:hover {
+        border-color: #dc2626; background-color:#44f3dc;
     }
 
-    .btn2.hover {
-       border-color: #dc2626; color: #fe2252;
+    .btn2:hover {
+       border-color: #dc2626; background-color:#44f3dc;
     }
 
-    .btn3.hover {
-        border-color: #dc2626; color: #fe2252;
+    .btn3:hover {
+        border-color: #dc2626; background-color:#44f3dc;
     }
-
+    
     
     
